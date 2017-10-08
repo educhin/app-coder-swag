@@ -13,6 +13,8 @@
 		443E42261F892E1100F0E1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443E42251F892E1100F0E1AC /* Assets.xcassets */; };
 		443E42291F892E1100F0E1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E42271F892E1100F0E1AC /* LaunchScreen.storyboard */; };
 		443E42341F8A876900F0E1AC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E42331F8A876900F0E1AC /* CategoryCell.swift */; };
+		443E42361F8A8E0D00F0E1AC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E42351F8A8E0D00F0E1AC /* Category.swift */; };
+		443E42391F8A913900F0E1AC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E42381F8A913900F0E1AC /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		443E42281F892E1100F0E1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443E422A1F892E1100F0E1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443E42331F8A876900F0E1AC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		443E42351F8A8E0D00F0E1AC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		443E42381F8A913900F0E1AC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		443E421D1F892E1100F0E1AC /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				443E42371F8A911500F0E1AC /* Services */,
 				443E42321F8A862000F0E1AC /* View */,
 				443E42311F8A861900F0E1AC /* Model */,
 				443E42301F8A85E400F0E1AC /* Controller */,
@@ -79,6 +84,7 @@
 		443E42311F8A861900F0E1AC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				443E42351F8A8E0D00F0E1AC /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				443E42331F8A876900F0E1AC /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		443E42371F8A911500F0E1AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				443E42381F8A913900F0E1AC /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				443E42211F892E1100F0E1AC /* CategoriesVC.swift in Sources */,
 				443E421F1F892E1100F0E1AC /* AppDelegate.swift in Sources */,
 				443E42341F8A876900F0E1AC /* CategoryCell.swift in Sources */,
+				443E42361F8A8E0D00F0E1AC /* Category.swift in Sources */,
+				443E42391F8A913900F0E1AC /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
