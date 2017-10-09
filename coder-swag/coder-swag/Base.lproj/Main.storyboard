@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="989.60000000000002" y="567.16641679160421"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="2eL-4G-3D7">
             <objects>
-                <viewController id="d66-nv-E7P" sceneMemberID="viewController">
+                <viewController id="d66-nv-E7P" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Of-fp-ZWN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
