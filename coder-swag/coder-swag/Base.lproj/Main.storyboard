@@ -88,7 +88,7 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="ZaQ-94-9Uc"/>
                     <connections>
                         <outlet property="categoryTable" destination="xrC-W0-FQO" id="4o0-vb-7WK"/>
-                        <segue destination="d66-nv-E7P" kind="show" id="T66-oz-KQf"/>
+                        <segue destination="d66-nv-E7P" kind="show" identifier="ProductsVC" id="T66-oz-KQf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -123,7 +123,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="k9M-PN-jYh" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="k9M-PN-jYh" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="259"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -185,6 +185,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="83o-Kv-Iu0"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="Qmo-9I-Xcp" id="bzb-Jw-8sw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gOx-OG-6Mh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
